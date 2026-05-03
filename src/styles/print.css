@@ -19,8 +19,8 @@
     height: 792px !important;
     margin: 0 !important;
     padding: 0 !important;
-    transform: scale(1.33333333) !important;
-    transform-origin: top left !important;
+    transform: scale(1.31) !important;
+    transform-origin: top center !important;
     box-shadow: none !important;
     page-break-after: avoid !important;
     print-color-adjust: exact;
