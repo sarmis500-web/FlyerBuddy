@@ -414,7 +414,7 @@
     {
       "id": "item-leche",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1550583724-125581cc25fb?q=80&w=400",
+      "src": "/milk.png",
       "x": 310,
       "y": 420,
       "width": 130,
@@ -458,7 +458,7 @@
     {
       "id": "item-huevos",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?q=80&w=400",
+      "src": "/eggs.png",
       "x": 450,
       "y": 420,
       "width": 130,
@@ -546,7 +546,7 @@
     {
       "id": "item-tortillas",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1599307767316-776533bb941c?q=80&w=400",
+      "src": "/tortillas.png",
       "x": 170,
       "y": 540,
       "width": 130,
@@ -590,7 +590,7 @@
     {
       "id": "item-queso",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=400",
+      "src": "/queso.png",
       "x": 310,
       "y": 540,
       "width": 130,
@@ -620,7 +620,7 @@
     {
       "id": "queso-label",
       "type": "text",
-      "content": "Queso Fresco",
+      "content": "White Queso",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 12,
       "fontWeight": "700",
@@ -634,7 +634,7 @@
     {
       "id": "item-aceite",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1474979266404-7eaacbadb8c5?q=80&w=400",
+      "src": "/aceite.jpg",
       "x": 450,
       "y": 540,
       "width": 130,
