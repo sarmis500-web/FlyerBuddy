@@ -414,7 +414,7 @@
     {
       "id": "item-leche",
       "type": "image",
-      "src": "/milk.png",
+      "src": "/milk_final.jpg",
       "x": 310,
       "y": 420,
       "width": 130,
@@ -458,7 +458,7 @@
     {
       "id": "item-huevos",
       "type": "image",
-      "src": "/eggs.png",
+      "src": "/eggs_final.jpg",
       "x": 450,
       "y": 420,
       "width": 130,
@@ -546,7 +546,7 @@
     {
       "id": "item-tortillas",
       "type": "image",
-      "src": "/tortillas.png",
+      "src": "/tortillas_final.jpg",
       "x": 170,
       "y": 540,
       "width": 130,
