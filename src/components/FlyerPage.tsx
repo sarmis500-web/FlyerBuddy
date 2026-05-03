@@ -17,7 +17,7 @@ const FlyerPage: React.FC<FlyerPageProps> = ({ zoomScale, projectOverride }) => 
 
   return (
     <div 
-      className="print-page bg-white relative mx-auto flyer-page-shadow"
+      className="print-page bg-white relative mx-auto flyer-page-shadow overflow-visible"
       style={{
         width: `${widthPt}px`,
         height: `${heightPt}px`,
