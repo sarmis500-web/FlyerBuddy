@@ -40,6 +40,7 @@ export type TextElement = BaseElement & {
   backgroundColor: string;
   textAlign: "left" | "center" | "right";
   lineHeight: number;
+  curve?: number;
 };
 
 export type ImageElement = BaseElement & {
