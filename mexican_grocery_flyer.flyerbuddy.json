@@ -446,7 +446,7 @@
     {
       "id": "tamales-label",
       "type": "text",
-      "content": "Tamales de Pollo",
+      "content": "Tamales",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 18,
       "fontWeight": "700",
