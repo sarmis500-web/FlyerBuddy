@@ -1,6 +1,7 @@
 import React from "react";
 import { useEditor } from "../features/editor/EditorContext";
 import ElementRenderer from "./ElementRenderer";
+import type { FlyerElement } from "../features/editor/editorTypes";
 
 interface FlyerPageProps {
   zoomScale: number;
