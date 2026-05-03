@@ -179,7 +179,7 @@
     {
       "id": "item-fajitas",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1534352956274-4ec581116262?fm=jpg&q=80&w=600",
+      "src": "/chicken_fajitas.jpg",
       "x": 320,
       "y": 185,
       "width": 260,
@@ -231,7 +231,7 @@
     {
       "id": "fajitas-label",
       "type": "text",
-      "content": "Fajitas de Res",
+      "content": "Fajitas de Pollo",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 18,
       "fontWeight": "700",
