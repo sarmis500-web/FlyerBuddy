@@ -57,7 +57,7 @@ const RndElementWrapper: React.FC<RndElementWrapperProps> = ({
       enableResizing={isSelected} // Only show resize handles if selected
     >
       <div 
-        className="w-full h-full cursor-move overflow-hidden"
+        className="w-full h-full cursor-move overflow-visible"
         onMouseDown={(e) => {
           e.stopPropagation();
           dispatch({ type: "SELECT_ELEMENT", payload: element.id });
