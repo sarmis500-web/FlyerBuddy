@@ -1,0 +1,35 @@
+@page {
+  size: letter;
+  margin: 0;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-page {
+    /* 
+      The layout is 612x792 CSS pixels. 
+      Standard print resolution is 96 CSS pixels per inch.
+      612 / 96 = 6.375 inches. 792 / 96 = 8.25 inches.
+      To fill an 8.5x11 inch page, we must scale by 96/72 = 1.33333333.
+    */
+    width: 612px !important;
+    height: 792px !important;
+    margin: 0 !important; /* Remove mx-auto centering */
+    transform: scale(1.33333333) !important;
+    transform-origin: top left !important;
+    page-break-after: avoid;
+    break-after: avoid;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
