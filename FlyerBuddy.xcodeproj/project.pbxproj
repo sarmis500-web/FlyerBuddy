@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C8A768EEABC3FBF237CA27D /* FlyerBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60120B57FC53EB15CFE69F3 /* FlyerBuddyApp.swift */; };
+		2754D5882FA6E3B200FF958F /* AssistantRef_FB_AUTO_002.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2754D5872FA6E3B200FF958F /* AssistantRef_FB_AUTO_002.txt */; };
 		5D46201FDDFB7BD9CB9DA995 /* mexican_grocery_flyer.flyerbuddy.json in Resources */ = {isa = PBXBuildFile; fileRef = EA846AABA990E4D154B8C31E /* mexican_grocery_flyer.flyerbuddy.json */; };
 		84B7FB4B37394D0C6708092F /* FlyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39370442C5B2363F0D5C2A8 /* FlyerView.swift */; };
 		A33C0C883C5B45AA24DED027 /* FlyerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8CA49E64BDFAFFB9006F7 /* FlyerModels.swift */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		19D8CA49E64BDFAFFB9006F7 /* FlyerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerModels.swift; sourceTree = "<group>"; };
 		1CCDF28B058812CEDC44A0CF /* FlyerBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FlyerBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2754D5872FA6E3B200FF958F /* AssistantRef_FB_AUTO_002.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = AssistantRef_FB_AUTO_002.txt; sourceTree = "<group>"; };
 		2EC38F4F31EC7F7A9F462FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6DBCD3C7A13F9086F213B6F7 /* mexican_grocery_flyer.flyerbuddy 2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mexican_grocery_flyer.flyerbuddy 2.json"; sourceTree = "<group>"; };
 		A39370442C5B2363F0D5C2A8 /* FlyerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 				2EC38F4F31EC7F7A9F462FE3 /* Info.plist */,
 				6DBCD3C7A13F9086F213B6F7 /* mexican_grocery_flyer.flyerbuddy 2.json */,
 				EA846AABA990E4D154B8C31E /* mexican_grocery_flyer.flyerbuddy.json */,
+				2754D5872FA6E3B200FF958F /* AssistantRef_FB_AUTO_002.txt */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -103,7 +106,6 @@
 			);
 			mainGroup = 3A059950664D9980C7E25256;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -118,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E54C258DA39F884A1220A62C /* mexican_grocery_flyer.flyerbuddy 2.json in Resources */,
+				2754D5882FA6E3B200FF958F /* AssistantRef_FB_AUTO_002.txt in Resources */,
 				5D46201FDDFB7BD9CB9DA995 /* mexican_grocery_flyer.flyerbuddy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

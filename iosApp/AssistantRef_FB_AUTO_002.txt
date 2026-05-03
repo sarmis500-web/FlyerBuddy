@@ -1,0 +1,2 @@
+// AssistantRef: FB-AUTO-002
+// Purpose: Marker file to identify the exact commit created by the assistant-triggered push.
