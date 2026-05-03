@@ -41,6 +41,7 @@ const ElementRenderer: React.FC<ElementRendererProps> = ({ element, zoomScale, i
           <img
             src={element.src}
             alt={element.alt || "Product"}
+            className="element-shadow"
             style={{
               width: "100%",
               height: "100%",
@@ -58,6 +59,7 @@ const ElementRenderer: React.FC<ElementRendererProps> = ({ element, zoomScale, i
         if (element.shapeKind === "rectangle") {
           return (
             <div
+              className={element.type === "shape" && element.id.includes("tag") ? "element-shadow" : ""}
               style={{
                 width: "100%",
                 height: "100%",
