@@ -179,7 +179,7 @@
     {
       "id": "item-fajitas",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?q=80&w=600",
+      "src": "https://images.unsplash.com/photo-1534352956274-4ec581116262?fm=jpg&q=80&w=600",
       "x": 320,
       "y": 185,
       "width": 260,
@@ -326,7 +326,7 @@
     {
       "id": "item-arroz",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1516684732162-798a0062be99?q=80&w=600",
+      "src": "https://images.unsplash.com/photo-1603093323131-15046c09e307?fm=jpg&q=80&w=600",
       "x": 30,
       "y": 530,
       "width": 260,
@@ -399,7 +399,7 @@
     {
       "id": "item-tamales",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1626244498305-649060b9f91a?q=80&w=600",
+      "src": "https://images.unsplash.com/photo-1730415136652-3044ec3db585?fm=jpg&q=80&w=600",
       "x": 320,
       "y": 530,
       "width": 260,
