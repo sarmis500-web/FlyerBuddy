@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "name": "Supermercado Janet Final",
+  "name": "Supermercado Janet Bulletproof",
   "page": {
     "sizeName": "letter",
     "widthPt": 612,
@@ -289,7 +289,7 @@
     {
       "id": "item-veg-1",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?auto=format&fit=crop&q=80&w=400",
+      "src": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=400",
       "x": 30,
       "y": 410,
       "width": 170,
@@ -362,7 +362,7 @@
     {
       "id": "item-veg-2",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1621236304192-359f47017688?auto=format&fit=crop&q=80&w=400",
+      "src": "https://images.pexels.com/photos/4117621/pexels-photo-4117621.jpeg?auto=compress&cs=tinysrgb&w=400",
       "x": 220,
       "y": 410,
       "width": 170,
@@ -435,7 +435,7 @@
     {
       "id": "item-veg-3",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1594119330663-71887e35b0b2?auto=format&fit=crop&q=80&w=400",
+      "src": "https://images.pexels.com/photos/1435706/pexels-photo-1435706.jpeg?auto=compress&cs=tinysrgb&w=400",
       "x": 412,
       "y": 410,
       "width": 170,
