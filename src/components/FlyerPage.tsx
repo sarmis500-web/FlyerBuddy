@@ -4,12 +4,16 @@ import ElementRenderer from "./ElementRenderer";
 
 interface FlyerPageProps {
   zoomScale: number;
+  projectOverride?: any;
 }
 
-const FlyerPage: React.FC<FlyerPageProps> = ({ zoomScale }) => {
+const FlyerPage: React.FC<FlyerPageProps> = ({ zoomScale, projectOverride }) => {
   const { state } = useEditor();
-  const { widthPt, heightPt, backgroundColor } = state.project.page;
-  const elements = state.project.elements;
+  const project = projectOverride || state.project;
+  const { widthPt, heightPt, backgroundColor } = project.page;
+  const elements = project.elements;
+  const selectedIds = projectOverride ? [] : state.selectedElementIds;
+
 
   return (
     <div 
@@ -29,7 +33,7 @@ const FlyerPage: React.FC<FlyerPageProps> = ({ zoomScale }) => {
           key={el.id} 
           element={el} 
           zoomScale={zoomScale}
-          isSelected={state.selectedElementIds.includes(el.id)} 
+          isSelected={selectedIds.includes(el.id)} 
         />
       ))}
       <div className="absolute inset-0 pointer-events-none border border-gray-100 no-print" />
