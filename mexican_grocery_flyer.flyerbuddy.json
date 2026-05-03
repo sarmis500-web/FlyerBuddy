@@ -40,10 +40,11 @@
       "x": 0,
       "y": 5,
       "width": 612,
-      "height": 55,
+      "height": 90,
       "rotation": 0,
       "zIndex": 11,
-      "opacity": 1
+      "opacity": 1,
+      "curve": 40
     },
     {
       "id": "store-name",
@@ -59,12 +60,13 @@
       "textAlign": "center",
       "lineHeight": 1.2,
       "x": 0,
-      "y": 65,
+      "y": 58,
       "width": 612,
-      "height": 40,
+      "height": 60,
       "rotation": 0,
       "zIndex": 6,
-      "opacity": 1
+      "opacity": 1,
+      "curve": 30
     },
     {
       "id": "hot-bar",

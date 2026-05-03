@@ -12,6 +12,49 @@ const ElementRenderer: React.FC<ElementRendererProps> = ({ element, zoomScale, i
   const renderContent = () => {
     switch (element.type) {
       case "text":
+        if (element.curve) {
+          const arc = element.curve;
+          const w = element.width;
+          const h = element.height;
+          const fontSize = element.fontSize;
+          const color = element.color;
+          
+          // Create a path for the text to follow. 
+          // We use a quadratic curve that arcs up (or down if arc is negative)
+          // The path goes from (0, h) to (w, h) with a control point at (w/2, h - arc*2)
+          const pathData = `M 0,${h * 0.8} Q ${w / 2},${h * 0.8 - arc} ${w},${h * 0.8}`;
+          
+          return (
+            <svg 
+              width="100%" 
+              height="100%" 
+              viewBox={`0 0 ${w} ${h}`}
+              style={{ overflow: "visible" }}
+            >
+              <defs>
+                <path id={`curve-${element.id}`} d={pathData} fill="transparent" />
+              </defs>
+              <text 
+                fill={color}
+                style={{
+                  fontFamily: element.fontFamily,
+                  fontSize: `${fontSize}px`,
+                  fontWeight: element.fontWeight,
+                  fontStyle: element.fontStyle,
+                }}
+              >
+                <textPath 
+                  href={`#curve-${element.id}`} 
+                  startOffset="50%" 
+                  textAnchor="middle"
+                  dominantBaseline="middle"
+                >
+                  {element.content}
+                </textPath>
+              </text>
+            </svg>
+          );
+        }
         return (
           <div
             style={{
