@@ -38,13 +38,13 @@
       "textAlign": "center",
       "lineHeight": 1.2,
       "x": 0,
-      "y": 15,
+      "y": 0,
       "width": 612,
       "height": 100,
       "rotation": 0,
       "zIndex": 11,
       "opacity": 1,
-      "curve": 60
+      "curve": 70
     },
     {
       "id": "store-name",
