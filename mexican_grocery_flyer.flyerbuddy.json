@@ -137,7 +137,7 @@
     {
       "id": "meat-tag-text",
       "type": "text",
-      "content": "$5.99 lb",
+      "content": "$8.99 lb",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 20,
       "fontWeight": "800",
@@ -205,7 +205,7 @@
     {
       "id": "fajitas-tag-text",
       "type": "text",
-      "content": "$6.99 lb",
+      "content": "$9.99 lb",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 20,
       "fontWeight": "800",
@@ -352,7 +352,7 @@
     {
       "id": "arroz-tag-text",
       "type": "text",
-      "content": "89¢ lb",
+      "content": "$4.99 lb",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 20,
       "fontWeight": "800",
@@ -425,7 +425,7 @@
     {
       "id": "tamales-tag-text",
       "type": "text",
-      "content": "2/$5",
+      "content": "12/$20",
       "fontFamily": "Outfit, system-ui, sans-serif",
       "fontSize": 20,
       "fontWeight": "800",
