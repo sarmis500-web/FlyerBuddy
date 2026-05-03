@@ -14,24 +14,28 @@
     display: none !important;
   }
 
-  body, #root, .h-screen, .w-screen, .flex, .flex-1, .editor-canvas-container {
-    display: block !important;
-    height: auto !important;
-    width: auto !important;
+  html, body, #root, #root > div {
     margin: 0 !important;
     padding: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
     overflow: visible !important;
+    display: block !important;
     position: static !important;
-    background: transparent !important;
+    background: white !important;
+  }
+
+  .no-print {
+    display: none !important;
   }
 
   .print-page {
     display: block !important;
     width: 612px !important;
     height: 792px !important;
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding: 0 !important;
-    transform: scale(1.30) !important;
+    transform: scale(1.25) !important;
     transform-origin: top center !important;
     box-shadow: none !important;
     page-break-after: avoid !important;
