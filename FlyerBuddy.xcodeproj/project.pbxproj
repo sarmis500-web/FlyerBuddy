@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		0C8A768EEABC3FBF237CA27D /* FlyerBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60120B57FC53EB15CFE69F3 /* FlyerBuddyApp.swift */; };
+		5D46201FDDFB7BD9CB9DA995 /* mexican_grocery_flyer.flyerbuddy.json in Resources */ = {isa = PBXBuildFile; fileRef = EA846AABA990E4D154B8C31E /* mexican_grocery_flyer.flyerbuddy.json */; };
+		84B7FB4B37394D0C6708092F /* FlyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39370442C5B2363F0D5C2A8 /* FlyerView.swift */; };
+		A33C0C883C5B45AA24DED027 /* FlyerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D8CA49E64BDFAFFB9006F7 /* FlyerModels.swift */; };
 		B1C8D7B66307541B13E4D1A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C8DF628FE5066B4191ED87 /* ContentView.swift */; };
+		E54C258DA39F884A1220A62C /* mexican_grocery_flyer.flyerbuddy 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCD3C7A13F9086F213B6F7 /* mexican_grocery_flyer.flyerbuddy 2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D8CA49E64BDFAFFB9006F7 /* FlyerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerModels.swift; sourceTree = "<group>"; };
 		1CCDF28B058812CEDC44A0CF /* FlyerBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FlyerBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC38F4F31EC7F7A9F462FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6DBCD3C7A13F9086F213B6F7 /* mexican_grocery_flyer.flyerbuddy 2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "mexican_grocery_flyer.flyerbuddy 2.json"; sourceTree = "<group>"; };
+		A39370442C5B2363F0D5C2A8 /* FlyerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerView.swift; sourceTree = "<group>"; };
 		A60120B57FC53EB15CFE69F3 /* FlyerBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyerBuddyApp.swift; sourceTree = "<group>"; };
 		E5C8DF628FE5066B4191ED87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA846AABA990E4D154B8C31E /* mexican_grocery_flyer.flyerbuddy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mexican_grocery_flyer.flyerbuddy.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -32,7 +40,11 @@
 			children = (
 				E5C8DF628FE5066B4191ED87 /* ContentView.swift */,
 				A60120B57FC53EB15CFE69F3 /* FlyerBuddyApp.swift */,
+				19D8CA49E64BDFAFFB9006F7 /* FlyerModels.swift */,
+				A39370442C5B2363F0D5C2A8 /* FlyerView.swift */,
 				2EC38F4F31EC7F7A9F462FE3 /* Info.plist */,
+				6DBCD3C7A13F9086F213B6F7 /* mexican_grocery_flyer.flyerbuddy 2.json */,
+				EA846AABA990E4D154B8C31E /* mexican_grocery_flyer.flyerbuddy.json */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -53,6 +65,8 @@
 			buildConfigurationList = 4B288636B73C4133A55AC7BE /* Build configuration list for PBXNativeTarget "FlyerBuddy" */;
 			buildPhases = (
 				1ED6FE68F6E4D48B045A30A5 /* Sources */,
+				53E6B64A988FB988E2E30D0C /* Resources */,
+				84824A48399693B26FF243EC /* Auto Commit and Push */,
 			);
 			buildRules = (
 			);
@@ -98,6 +112,39 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		53E6B64A988FB988E2E30D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54C258DA39F884A1220A62C /* mexican_grocery_flyer.flyerbuddy 2.json in Resources */,
+				5D46201FDDFB7BD9CB9DA995 /* mexican_grocery_flyer.flyerbuddy.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84824A48399693B26FF243EC /* Auto Commit and Push */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Auto Commit and Push";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash scripts/commit_and_push.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1ED6FE68F6E4D48B045A30A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -105,6 +152,8 @@
 			files = (
 				B1C8D7B66307541B13E4D1A2 /* ContentView.swift in Sources */,
 				0C8A768EEABC3FBF237CA27D /* FlyerBuddyApp.swift in Sources */,
+				A33C0C883C5B45AA24DED027 /* FlyerModels.swift in Sources */,
+				84B7FB4B37394D0C6708092F /* FlyerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
