@@ -28,7 +28,7 @@ const FlyerPage: React.FC<FlyerPageProps> = ({ zoomScale, projectOverride }) => 
         e.stopPropagation();
       }}
     >
-      {elements.map((el) => (
+      {elements.map((el: FlyerElement) => (
         <ElementRenderer 
           key={el.id} 
           element={el} 
