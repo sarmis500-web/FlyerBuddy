@@ -394,7 +394,7 @@
     {
       "id": "item-tamales",
       "type": "image",
-      "src": "https://images.unsplash.com/photo-1730415136652-3044ec3db585?fm=jpg&q=80&w=600",
+      "src": "/tamales.jpg",
       "x": 320,
       "y": 470,
       "width": 260,
